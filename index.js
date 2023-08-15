@@ -1,6 +1,6 @@
 let resp = prompt('Quieres calcular el aumento de tu producto?')
 
-while (resp === 'si'){ 
+while (resp = 'si'){ 
     const valorAntiguo = parseFloat(prompt('Ingrese el valor antiguo'))
     const valorNuevo = parseFloat(prompt('Ingrese su nuevo costo'))  
     const resultado = calcularPorcentaje(valorAntiguo, valorNuevo)
